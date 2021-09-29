@@ -27,7 +27,7 @@
     "test": "yarn run lint && yarn run compile && yarn run jest",
     "lint": "eslint src/. test/. --config .eslintrc.json --ext .ts",
     "dev": "NODE_ENV=sandbox ts-node-dev --no-notify src/",
-    "start": "yarn run compile && node lib/",
+    "start": "yarn run compile && node lib/ || yarn run dev",
     "jest": "jest  --forceExit",
     "compile": "shx rm -rf lib/ && tsc"
   },
