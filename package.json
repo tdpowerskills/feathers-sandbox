@@ -25,8 +25,8 @@
   },
   "scripts": {
     "test": "yarn run lint && yarn run compile && yarn run jest",
-    "lint": "eslint src/. test/. --config .eslintrc.json --ext .ts --fix",
-    "dev": "ts-node-dev --no-notify src/",
+    "lint": "eslint src/. test/. --config .eslintrc.json --ext .ts",
+    "dev": "NODE_ENV=sandbox ts-node-dev --no-notify src/",
     "start": "yarn run compile && node lib/",
     "jest": "jest  --forceExit",
     "compile": "shx rm -rf lib/ && tsc"
