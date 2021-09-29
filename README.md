@@ -14,7 +14,7 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
     - Uses VSCode and stock Node.js containers. Containers are regenerated on every boot.
 - Glitch.com
     - https://glitch.com/edit/#!/feathers5-sandbox
-    - Slower to boot a new fork, but images are saved statefully and your endpoint can be accessed publically 24/7.
+    - Slower to boot a new fork, but images are saved statefully and your endpoint can be accessed publicly 24/7.
 
 ## Getting Started (Local)
 
