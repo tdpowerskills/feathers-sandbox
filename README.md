@@ -6,7 +6,17 @@
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
 
-## Getting Started
+
+## Getting Started with a Sandbox
+
+- CodeSandbox.io
+    - https://codesandbox.io/s/github/tdpowerskills/feathers-sandbox
+    - Uses VSCode and stock Node.js containers. Containers are regenerated on every boot.
+- Glitch.com
+    - https://glitch.com/edit/#!/feathers5-sandbox
+    - Slower to boot a new fork, but images are saved statefully and your endpoint can be accessed publically 24/7.
+
+## Getting Started (Local)
 
 Getting up and running is as easy as 1, 2, 3.
 
