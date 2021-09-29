@@ -1,4 +1,5 @@
 {
+  "host": "0.0.0.0",
   "helmet": {
     "contentSecurityPolicy": {
       "useDefaults": true,
@@ -10,7 +11,7 @@
           "'unsafe-inline'",
           "https://unpkg.com"
         ],
-        "frame-ancestors": ["https://codesandbox.io"]
+        "frame-ancestors": ["https://codesandbox.io", "https://glitch.com"]
       }
     }
   }
