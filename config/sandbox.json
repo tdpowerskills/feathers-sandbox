@@ -1,0 +1,17 @@
+{
+  "helmet": {
+    "contentSecurityPolicy": {
+      "useDefaults": true,
+      "directives": {
+        "script-src": [
+          "'self'",
+          "'unsafe-eval'",
+          "https://*.codesandbox.io",
+          "'unsafe-inline'",
+          "https://unpkg.com"
+        ],
+        "frame-ancestors": ["https://codesandbox.io"]
+      }
+    }
+  }
+}
